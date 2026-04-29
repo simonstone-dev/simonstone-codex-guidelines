@@ -129,7 +129,9 @@ cp -R skills/semionstone-codex-guidelines ~/.codex/skills/
 
 ## 致谢
 
-灵感来自关于 LLM 编码代理常见问题的公开讨论，以及已有 Claude 版本指南项目的实践。本仓库是独立的 Codex 适配版本。
+本项目基于 [`forrestchang/andrej-karpathy-skills`](https://github.com/forrestchang/andrej-karpathy-skills) 的思路和结构改写；原项目源自 Andrej Karpathy 对 LLM 编码代理常见问题的观察。
+
+本仓库将这些思路重新整理为适用于 Codex 的 `AGENTS.md`、可复用 Codex skill 和 Codex 插件元数据。本仓库是独立适配版本，不隶属于原作者。
 
 ## 许可
 

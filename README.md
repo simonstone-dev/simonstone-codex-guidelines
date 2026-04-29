@@ -129,7 +129,9 @@ These guidelines bias toward caution over speed. For trivial tasks, use judgment
 
 ## Attribution
 
-Inspired by public discussions of common LLM coding-agent pitfalls and prior Claude-focused guideline projects. This repository is an independent Codex-focused adaptation.
+This project is adapted from the ideas and structure of [`forrestchang/andrej-karpathy-skills`](https://github.com/forrestchang/andrej-karpathy-skills), which was inspired by Andrej Karpathy's observations on common LLM coding-agent pitfalls.
+
+This repository rewrites and packages those ideas for Codex with project-level `AGENTS.md`, a reusable Codex skill, and Codex plugin metadata. It is an independent adaptation and is not affiliated with the original authors.
 
 ## License
 
