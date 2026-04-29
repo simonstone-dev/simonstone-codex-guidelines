@@ -1,7 +1,7 @@
 {
   "name": "semionstone-codex-guidelines",
   "version": "1.0.0",
-  "description": "SemionStone's behavioral guidelines for Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable code changes.",
+  "description": "Simon Stone's behavioral guidelines for Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable code changes.",
   "author": {
     "name": "Community"
   },
@@ -15,7 +15,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "SemionStone Codex Guidelines",
+    "displayName": "Simon Stone Codex Guidelines",
     "shortDescription": "Coding-agent rules for simpler, safer Codex changes.",
     "longDescription": "A reusable Codex skill and project instruction file for coding-agent principles: think before coding, keep implementations simple, make surgical changes, and verify against concrete goals.",
     "developerName": "Community",
@@ -25,7 +25,7 @@
       "Review"
     ],
     "defaultPrompt": [
-      "Use SemionStone Codex Guidelines for this coding task.",
+      "Use Simon Stone Codex Guidelines for this coding task.",
       "Review this diff with surgical-change principles.",
       "Turn this bug report into a verifiable fix plan."
     ],

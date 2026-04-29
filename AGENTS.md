@@ -1,4 +1,4 @@
-# SemionStone Codex Guidelines
+# Simon Stone Codex Guidelines
 
 These rules help Codex write, modify, review, refactor, and debug code with fewer common LLM-agent mistakes.
 

@@ -1,6 +1,6 @@
-# SemionStone Codex 指南
+# Simon Stone Codex 指南
 
-一组可直接给 Codex 使用的行为规则，用于减少 LLM 编码代理常见失误。这是 SemionStone 的 Codex 指南包，灵感来自公开讨论中的 coding-agent 常见问题观察。
+一组可直接给 Codex 使用的行为规则，用于减少 LLM 编码代理常见失误。本项目由 Simon Stone（`@simonstone-dev`）维护，灵感来自公开讨论中的 coding-agent 常见问题观察。
 
 [English](./README.md) | 简体中文
 
@@ -81,7 +81,7 @@ LLM 编码代理经常出现这些问题：
 把 `AGENTS.md` 复制到使用 Codex 的项目根目录：
 
 ```bash
-curl -o AGENTS.md https://raw.githubusercontent.com/asdpxsym-cloud/semionstone-codex-guidelines/main/AGENTS.md
+curl -o AGENTS.md https://raw.githubusercontent.com/simonstone-dev/semionstone-codex-guidelines/main/AGENTS.md
 ```
 
 如果项目已经有 `AGENTS.md`，请合并规则，不要覆盖项目专属指令。

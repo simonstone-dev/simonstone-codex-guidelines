@@ -1,9 +1,9 @@
 ---
 name: semionstone-codex-guidelines
-description: Use when writing, modifying, reviewing, refactoring, or debugging code with Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable work by applying SemionStone's coding-agent guidelines.
+description: Use when writing, modifying, reviewing, refactoring, or debugging code with Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable work by applying Simon Stone's coding-agent guidelines.
 ---
 
-# SemionStone Codex Guidelines
+# Simon Stone Codex Guidelines
 
 Use these rules when working on code. They bias Codex toward explicit assumptions, simple implementations, surgical diffs, and verifiable outcomes.
 

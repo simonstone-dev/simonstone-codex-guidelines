@@ -1,6 +1,6 @@
-# SemionStone Codex Guidelines
+# Simon Stone Codex Guidelines
 
-A small set of Codex-ready instructions to reduce common LLM coding mistakes. This project is maintained as SemionStone's Codex guideline package and is inspired by public observations about coding-agent pitfalls.
+A small set of Codex-ready instructions to reduce common LLM coding mistakes. This project is maintained by Simon Stone (`@simonstone-dev`) and is inspired by public observations about coding-agent pitfalls.
 
 English | [简体中文](./README.zh.md)
 
@@ -81,7 +81,7 @@ Turn tasks into verifiable goals and loop until the checks are done.
 Copy `AGENTS.md` into the root of a project where you use Codex:
 
 ```bash
-curl -o AGENTS.md https://raw.githubusercontent.com/asdpxsym-cloud/semionstone-codex-guidelines/main/AGENTS.md
+curl -o AGENTS.md https://raw.githubusercontent.com/simonstone-dev/semionstone-codex-guidelines/main/AGENTS.md
 ```
 
 If the project already has an `AGENTS.md`, merge the sections instead of replacing project-specific rules.
