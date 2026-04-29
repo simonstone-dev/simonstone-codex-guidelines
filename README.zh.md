@@ -28,7 +28,7 @@ LLM 编码代理经常出现这些问题：
 本仓库包含：
 
 - `AGENTS.md`：项目级 Codex 指令。
-- `skills/semionstone-codex-guidelines/SKILL.md`：可复用 Codex skill。
+- `skills/simonstone-codex-guidelines/SKILL.md`：可复用 Codex skill。
 - `.codex-plugin/plugin.json`：Codex 插件打包元数据。
 - `EXAMPLES.md`：常见错误和正确行为示例。
 
@@ -81,7 +81,7 @@ LLM 编码代理经常出现这些问题：
 把 `AGENTS.md` 复制到使用 Codex 的项目根目录：
 
 ```bash
-curl -o AGENTS.md https://raw.githubusercontent.com/simonstone-dev/semionstone-codex-guidelines/main/AGENTS.md
+curl -o AGENTS.md https://raw.githubusercontent.com/simonstone-dev/simonstone-codex-guidelines/main/AGENTS.md
 ```
 
 如果项目已经有 `AGENTS.md`，请合并规则，不要覆盖项目专属指令。
@@ -92,10 +92,10 @@ curl -o AGENTS.md https://raw.githubusercontent.com/simonstone-dev/semionstone-c
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R skills/semionstone-codex-guidelines ~/.codex/skills/
+cp -R skills/simonstone-codex-guidelines ~/.codex/skills/
 ```
 
-之后在写代码、改代码、review、重构或调试时，让 Codex 使用 `semionstone-codex-guidelines`。
+之后在写代码、改代码、review、重构或调试时，让 Codex 使用 `simonstone-codex-guidelines`。
 
 ### 选项 C：Codex 插件包
 

@@ -1,5 +1,5 @@
 ---
-name: semionstone-codex-guidelines
+name: simonstone-codex-guidelines
 description: Use when writing, modifying, reviewing, refactoring, or debugging code with Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable work by applying Simon Stone's coding-agent guidelines.
 ---
 

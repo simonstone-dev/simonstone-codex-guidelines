@@ -1,5 +1,5 @@
 {
-  "name": "semionstone-codex-guidelines",
+  "name": "simonstone-codex-guidelines",
   "version": "1.0.0",
   "description": "Simon Stone's behavioral guidelines for Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable code changes.",
   "author": {
