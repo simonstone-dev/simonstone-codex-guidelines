@@ -1,6 +1,6 @@
-# Karpathy-Inspired Codex Guidelines
+# SemionStone Codex Guidelines
 
-A small set of Codex-ready instructions to reduce common LLM coding mistakes, adapted from Andrej Karpathy's observations about coding agents.
+A small set of Codex-ready instructions to reduce common LLM coding mistakes. This project is maintained as SemionStone's Codex guideline package and is inspired by public observations about coding-agent pitfalls.
 
 English | [简体中文](./README.zh.md)
 
@@ -28,7 +28,7 @@ Four principles in reusable Codex formats:
 This repository includes:
 
 - `AGENTS.md` for project-level Codex instructions.
-- `skills/karpathy-codex-guidelines/SKILL.md` for a reusable Codex skill.
+- `skills/semionstone-codex-guidelines/SKILL.md` for a reusable Codex skill.
 - `.codex-plugin/plugin.json` for Codex plugin packaging.
 - `EXAMPLES.md` with practical examples of good and bad agent behavior.
 
@@ -81,7 +81,7 @@ Turn tasks into verifiable goals and loop until the checks are done.
 Copy `AGENTS.md` into the root of a project where you use Codex:
 
 ```bash
-curl -o AGENTS.md https://raw.githubusercontent.com/asdpxsym-cloud/karpathy-codex-guidelines/main/AGENTS.md
+curl -o AGENTS.md https://raw.githubusercontent.com/asdpxsym-cloud/semionstone-codex-guidelines/main/AGENTS.md
 ```
 
 If the project already has an `AGENTS.md`, merge the sections instead of replacing project-specific rules.
@@ -92,10 +92,10 @@ Copy the skill directory into your Codex skills folder:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R skills/karpathy-codex-guidelines ~/.codex/skills/
+cp -R skills/semionstone-codex-guidelines ~/.codex/skills/
 ```
 
-Then ask Codex to use `karpathy-codex-guidelines` for writing, modifying, reviewing, refactoring, or debugging code.
+Then ask Codex to use `semionstone-codex-guidelines` for writing, modifying, reviewing, refactoring, or debugging code.
 
 ### Option C: Codex plugin packaging
 
@@ -129,7 +129,7 @@ These guidelines bias toward caution over speed. For trivial tasks, use judgment
 
 ## Attribution
 
-Inspired by Andrej Karpathy's observations on common LLM coding-agent pitfalls and by the structure of `forrestchang/andrej-karpathy-skills`.
+Inspired by public discussions of common LLM coding-agent pitfalls, including Andrej Karpathy's observations. This repository is an independent Codex-focused adaptation and is not affiliated with Andrej Karpathy or the original Claude-focused repository.
 
 ## License
 

@@ -1,6 +1,6 @@
-# 受 Karpathy 启发的 Codex 指南
+# SemionStone Codex 指南
 
-一组可直接给 Codex 使用的行为规则，用于减少 LLM 编码代理常见失误。内容改写自 Andrej Karpathy 对 coding agent 问题的观察。
+一组可直接给 Codex 使用的行为规则，用于减少 LLM 编码代理常见失误。这是 SemionStone 的 Codex 指南包，灵感来自公开讨论中的 coding-agent 常见问题观察。
 
 [English](./README.md) | 简体中文
 
@@ -28,7 +28,7 @@ LLM 编码代理经常出现这些问题：
 本仓库包含：
 
 - `AGENTS.md`：项目级 Codex 指令。
-- `skills/karpathy-codex-guidelines/SKILL.md`：可复用 Codex skill。
+- `skills/semionstone-codex-guidelines/SKILL.md`：可复用 Codex skill。
 - `.codex-plugin/plugin.json`：Codex 插件打包元数据。
 - `EXAMPLES.md`：常见错误和正确行为示例。
 
@@ -81,7 +81,7 @@ LLM 编码代理经常出现这些问题：
 把 `AGENTS.md` 复制到使用 Codex 的项目根目录：
 
 ```bash
-curl -o AGENTS.md https://raw.githubusercontent.com/asdpxsym-cloud/karpathy-codex-guidelines/main/AGENTS.md
+curl -o AGENTS.md https://raw.githubusercontent.com/asdpxsym-cloud/semionstone-codex-guidelines/main/AGENTS.md
 ```
 
 如果项目已经有 `AGENTS.md`，请合并规则，不要覆盖项目专属指令。
@@ -92,10 +92,10 @@ curl -o AGENTS.md https://raw.githubusercontent.com/asdpxsym-cloud/karpathy-code
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R skills/karpathy-codex-guidelines ~/.codex/skills/
+cp -R skills/semionstone-codex-guidelines ~/.codex/skills/
 ```
 
-之后在写代码、改代码、review、重构或调试时，让 Codex 使用 `karpathy-codex-guidelines`。
+之后在写代码、改代码、review、重构或调试时，让 Codex 使用 `semionstone-codex-guidelines`。
 
 ### 选项 C：Codex 插件包
 
@@ -129,7 +129,7 @@ cp -R skills/karpathy-codex-guidelines ~/.codex/skills/
 
 ## 致谢
 
-灵感来自 Andrej Karpathy 对 LLM 编码代理常见问题的观察，以及 `forrestchang/andrej-karpathy-skills` 的仓库结构。
+灵感来自关于 LLM 编码代理常见问题的公开讨论，其中包括 Andrej Karpathy 的相关观察。本仓库是独立的 Codex 适配版本，不隶属于 Andrej Karpathy 或原 Claude 版本仓库。
 
 ## 许可
 

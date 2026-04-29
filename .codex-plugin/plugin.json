@@ -1,7 +1,7 @@
 {
-  "name": "karpathy-codex-guidelines",
+  "name": "semionstone-codex-guidelines",
   "version": "1.0.0",
-  "description": "Karpathy-inspired behavioral guidelines for Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable code changes.",
+  "description": "SemionStone's behavioral guidelines for Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable code changes.",
   "author": {
     "name": "Community"
   },
@@ -10,12 +10,12 @@
     "codex",
     "guidelines",
     "coding-agent",
-    "karpathy",
+    "semionstone",
     "skills"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Karpathy Codex Guidelines",
+    "displayName": "SemionStone Codex Guidelines",
     "shortDescription": "Coding-agent rules for simpler, safer Codex changes.",
     "longDescription": "A reusable Codex skill and project instruction file based on Karpathy-style coding-agent principles: think before coding, keep implementations simple, make surgical changes, and verify against concrete goals.",
     "developerName": "Community",

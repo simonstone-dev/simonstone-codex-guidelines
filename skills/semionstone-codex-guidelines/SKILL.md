@@ -1,9 +1,9 @@
 ---
-name: karpathy-codex-guidelines
-description: Use when writing, modifying, reviewing, refactoring, or debugging code with Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable work by applying Karpathy-inspired coding-agent guidelines.
+name: semionstone-codex-guidelines
+description: Use when writing, modifying, reviewing, refactoring, or debugging code with Codex to reduce wrong assumptions, overengineering, unrelated diffs, and unverifiable work by applying SemionStone's coding-agent guidelines.
 ---
 
-# Karpathy Codex Guidelines
+# SemionStone Codex Guidelines
 
 Use these rules when working on code. They bias Codex toward explicit assumptions, simple implementations, surgical diffs, and verifiable outcomes.
 
