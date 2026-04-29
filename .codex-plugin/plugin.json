@@ -17,7 +17,7 @@
   "interface": {
     "displayName": "SemionStone Codex Guidelines",
     "shortDescription": "Coding-agent rules for simpler, safer Codex changes.",
-    "longDescription": "A reusable Codex skill and project instruction file based on Karpathy-style coding-agent principles: think before coding, keep implementations simple, make surgical changes, and verify against concrete goals.",
+    "longDescription": "A reusable Codex skill and project instruction file for coding-agent principles: think before coding, keep implementations simple, make surgical changes, and verify against concrete goals.",
     "developerName": "Community",
     "category": "Productivity",
     "capabilities": [
@@ -25,7 +25,7 @@
       "Review"
     ],
     "defaultPrompt": [
-      "Use Karpathy Codex Guidelines for this coding task.",
+      "Use SemionStone Codex Guidelines for this coding task.",
       "Review this diff with surgical-change principles.",
       "Turn this bug report into a verifiable fix plan."
     ],
