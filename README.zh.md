@@ -129,7 +129,7 @@ cp -R skills/semionstone-codex-guidelines ~/.codex/skills/
 
 ## 致谢
 
-灵感来自关于 LLM 编码代理常见问题的公开讨论，其中包括 Andrej Karpathy 的相关观察。本仓库是独立的 Codex 适配版本，不隶属于 Andrej Karpathy 或原 Claude 版本仓库。
+灵感来自关于 LLM 编码代理常见问题的公开讨论，以及已有 Claude 版本指南项目的实践。本仓库是独立的 Codex 适配版本。
 
 ## 许可
 

@@ -129,7 +129,7 @@ These guidelines bias toward caution over speed. For trivial tasks, use judgment
 
 ## Attribution
 
-Inspired by public discussions of common LLM coding-agent pitfalls, including Andrej Karpathy's observations. This repository is an independent Codex-focused adaptation and is not affiliated with Andrej Karpathy or the original Claude-focused repository.
+Inspired by public discussions of common LLM coding-agent pitfalls and prior Claude-focused guideline projects. This repository is an independent Codex-focused adaptation.
 
 ## License
 
